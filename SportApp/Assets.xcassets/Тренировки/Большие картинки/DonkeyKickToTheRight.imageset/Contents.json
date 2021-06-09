@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Ослик лягается влево.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

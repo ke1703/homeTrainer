@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Отжимания со смещением.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

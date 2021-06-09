@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZkO-Zn-AsV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Squad-Heavy.ttf">
+            <string>Squad-Heavy</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="t0j-NW-o6P">
+            <objects>
+                <viewController id="ZkO-Zn-AsV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dOW-lb-tXf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="rjc-NW-h8J">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6S-CA-I9H">
+                                <rect key="frame" x="0.0" y="68" width="414" height="64"/>
+                                <string key="text">Home Bodybuilder
+Trainer</string>
+                                <fontDescription key="fontDescription" name="Squad-Heavy" family="Squad" pointSize="32"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WQJ-en-dBl"/>
+                        <constraints>
+                            <constraint firstItem="rjc-NW-h8J" firstAttribute="leading" secondItem="WQJ-en-dBl" secondAttribute="leading" id="EJU-Oq-YVO"/>
+                            <constraint firstItem="H6S-CA-I9H" firstAttribute="top" secondItem="WQJ-en-dBl" secondAttribute="top" constant="24" id="GGP-5g-Jpa"/>
+                            <constraint firstAttribute="bottom" secondItem="rjc-NW-h8J" secondAttribute="bottom" id="fwJ-Se-1T8"/>
+                            <constraint firstItem="WQJ-en-dBl" firstAttribute="trailing" secondItem="H6S-CA-I9H" secondAttribute="trailing" id="h0L-m5-UrN"/>
+                            <constraint firstItem="rjc-NW-h8J" firstAttribute="top" secondItem="dOW-lb-tXf" secondAttribute="top" id="oIM-Of-Inn"/>
+                            <constraint firstItem="H6S-CA-I9H" firstAttribute="leading" secondItem="WQJ-en-dBl" secondAttribute="leading" id="oO8-Qe-pwH"/>
+                            <constraint firstItem="rjc-NW-h8J" firstAttribute="trailing" secondItem="WQJ-en-dBl" secondAttribute="trailing" id="taF-II-Q5z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="thf-VC-4SG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch" width="316" height="592"/>
+    </resources>
+</document>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Подъем рук в сторону.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

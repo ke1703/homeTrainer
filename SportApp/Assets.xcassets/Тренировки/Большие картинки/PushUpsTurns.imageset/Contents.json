@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Отжимания с поворотом.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

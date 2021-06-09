@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Отжимания от стены.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

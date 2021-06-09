@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Пресс продолжающий.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

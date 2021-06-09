@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Наклоны вперед.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
